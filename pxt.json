@@ -1,0 +1,25 @@
+{
+    "name": "Test_Trung_MakerEduExtension",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*",
+        "MakerEDU": "github:Khuuxuanngoc/MakerEDU#8956b13e74d382fa25680d43227a213c0f2485db"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
